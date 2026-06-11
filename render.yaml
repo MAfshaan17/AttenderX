@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: attenderx-api
+    env: docker
+    dockerfilePath: ./server/Dockerfile
+    envVars:
+      - key: MONGODB_URL
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: 1440
