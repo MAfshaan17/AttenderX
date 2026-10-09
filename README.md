@@ -80,5 +80,6 @@ npm run dev
 * **Liveness Checks:** Deep-learning facial landmark detection prevents photo-spoofing entirely on the client-side.
 
 ---
+ This project was made to help students to maintain their attendance in a systemaTIC ORDER
 
 *Built with ❤️ for modern academic administration.*
